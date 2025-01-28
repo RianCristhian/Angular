@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
           this.mensagem = data.mensagem;
         },
         (error) => {
-          this.mensagem = 'Carregando...';
+          this.mensagem = 'Aguardando BeckEnd';
         }
       );
   }
